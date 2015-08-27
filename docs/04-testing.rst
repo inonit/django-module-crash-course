@@ -419,8 +419,11 @@ Time to make the build!
     .. code-block:: none
 
         (django-foobar):~/django-foobar$ git add *
-        (django-foobar):~/django-foobar$ git commit -m "new stuff"
+        (django-foobar):~/django-foobar$ git commit -m "a brand new commit"
         (django-foobar):~/django-foobar$ git push -u origin master
 
-# Enjoy the build!
+#. Enjoy the build!
 
+    .. image:: _static/travis_build.png
+
+    Holy cow, it worked!
