@@ -209,7 +209,8 @@ Source control
 
     .. code-block:: none
 
-        (django-foobar):~/django-foobar$ git commit -a -m "initial commit"
+        (django-foobar):~/django-foobar$ git add *
+        (django-foobar):~/django-foobar$ git commit -m "initial commit"
 
 Github
 ......
@@ -222,6 +223,14 @@ If you don't have a `Github <https://github.com/>`_ account, go ahead and create
 
     Fill in some details about your project, but make it public.
 
+#. Push your code to the new Github repository.
+
+    .. code-block:: none
+
+        (django-foobar):~/django-foobar$ git remote add origin https://github.com/<your-user>/django-foobar.git
+        (django-foobar):~/django-foobar$ git push -u origin master
+
+    Enter your credentials when asked.
 
 
 There. We now have a pretty good project structure for developing the amazing ``django-foobar`` module.

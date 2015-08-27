@@ -400,3 +400,27 @@ following code.
 
 As you can read out from the configuration, we'll be using ``tox`` to run the test suite on Travis as well.
 You should be able to recognize the ``tox`` environments we created earlier in the travis configuration above.
+
+Time to make the build!
+
+#. Head over to `Travis <https://travis-ci.org/>`_ and hit the "Sign in with Github" button in the top right
+   corner.
+
+#. Navigate to your profile and locate the repository list. There should be a a flip switch next to the repository
+   name. Flip it to "On".
+
+    .. image:: _static/travis_repositories.png
+
+    Once the flip is on, Travis will start an automated build whenever a new commit is pushed to the Github
+    repository.
+
+#. Commit and push new stuff to Github.
+
+    .. code-block:: none
+
+        (django-foobar):~/django-foobar$ git add *
+        (django-foobar):~/django-foobar$ git commit -m "new stuff"
+        (django-foobar):~/django-foobar$ git push -u origin master
+
+# Enjoy the build!
+
