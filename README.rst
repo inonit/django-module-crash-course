@@ -5,6 +5,8 @@ Django 3rd party module crash course
 This directory holds the complete documentation as well as the documented source
 code for a crash course on good practice when writing 3rd party django modules.
 
+`Read the guide here <http://django-module-crash-course.readthedocs.org/en/latest/>`_
+
 Covered topics
 --------------
 
