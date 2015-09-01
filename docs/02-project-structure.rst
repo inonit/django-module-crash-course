@@ -68,6 +68,8 @@ Module source code
         (django-foobar):~/django-foobar$ django-admin startapp django_foobar
 
 
+.. _create-docs-label:
+
 Documentation
 -------------
 

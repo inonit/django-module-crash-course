@@ -8,8 +8,8 @@ Django includes a test runner witch can be run by issuing the ``python manage.py
 However, when writing 3rd party modules I like to use a slightly different approach. It includes creating
 a proper ``setup.py`` file, the ``nose`` and ``tox`` testing frameworks.
 
-Setup.py
-========
+The setup script
+================
 
 Let's start by creating a ``setup.py`` file. This file will be used to run test suite and later build,
 package and upload the module to ``pypi``.
@@ -361,7 +361,7 @@ Continuous Integration
 ======================
 
 `Continuous Integration <https://en.wikipedia.org/wiki/Continuous_integration>`_ is nice. Alright that was yet
-another opinionated statement from me, but it makes me happy to see my builds go green.
+another opinionated statement from me, but it makes me happy to see my builds go green =)
 
 `Travis <https://travis-ci.org/>`_ is my weapon of choice because all my code goes to Github, and Travis
 integrates very easily. Create a new file ``.travis.yml`` in your projects working directory and paste the
