@@ -152,3 +152,28 @@ Run the following command from the ``docs/`` directory.
 Open the ``docs/_build/html/index.html`` file in your web browser.
 
 .. image:: _static/docs-example.png
+
+
+Read the Docs
+=============
+
+`Read the Docs <https://readthedocs.org/>`_ is a service for hosting documentation. It's free for open source
+projects, so we'll set it up to host the documentation for us. It can be activated as a Github hook like the
+Travis CI hook, which means that every time we commit changes to the Github repository the documentation will be
+rebuilt.
+
+#. Head over to `Read the Docs <https://readthedocs.org/>` and create an account
+#. From the drop down menu in the top right corner, click "Add project"
+#. Click the "Import from Github" button
+
+    .. image:: _static/rtd01.png
+
+#. Fill in some details
+
+    .. image:: _static/rtd02.png
+
+#. Authenticate with Github if asked, and accept adding the webhook
+
+    .. image:: _static/rtd03.png
+
+Done =)
