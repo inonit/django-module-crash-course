@@ -19,6 +19,7 @@ setup(
     author="John Doe",
     author_email="john.doe@example.com",
     license="MIT License",
+    url="https://example.com",
     packages=[
         "django_foobar",
     ],
