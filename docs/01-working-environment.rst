@@ -82,7 +82,7 @@ simply enter the command ``deactivate``, and to activate it again you would type
 ``workon django-foobar``.
 
 While the virtual environment is active, all packages you install will be installed in the
-``$WORKON_HOME/django-foobar/lib/python2.7/site-packages/``, the python interpreter will be
+``$WORKON_HOME/django-foobar/lib/python3.4/site-packages/``, the python interpreter will be
 ``$WORKON_HOME/django-foobar/bin/python`` and so on. So when you execute the ``python`` command,
 it will be the one in your active environment, not your system python.
 
