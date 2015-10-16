@@ -19,7 +19,7 @@ Writing documentation
 Most of the time, the reason for writing 3rd party modules is that we believe we have found a use case for
 some kind of functionality that is so common and/or generic that we can put in some time and effort now, to
 save time in the long run. Chances are, that other people might find our module useful too, but we need to
-tell them how (and our future selves) to use it.
+tell them (and our future selves) how to use it.
 
 It is therefore crucial that we write good documentation and explain how to use the code.
 
